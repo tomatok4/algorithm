@@ -22,11 +22,12 @@ int solution(vector<vector<int>> triangle) {
     }
     for(int i = 0; i < t[t.size()-1].size();i++)
         answer = max(answer, t[t.size()-1][i]);
-    for(auto s :t ) {
-        for(auto q : s)
-            cout << q << " ";
-        cout << endl;
-    }
+    
+    // for(auto s :t ) {
+    //     for(auto q : s)
+    //         cout << q << " ";
+    //     cout << endl;
+    // }
 
     return answer;
 }
